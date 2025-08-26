@@ -72,7 +72,7 @@ Global_Superstore/
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/Global_Superstore.git
+git clone https://github.com/Kartik-0911/Global_Superstore.git
 ```
 
 2. **Navigate to the project folder**:
