@@ -45,7 +45,7 @@ How to Use
 
 Clone the repository
 
-git clone https://github.com/your-username/my-repo.git
+git clone https://github.com/Kartik-0911/my-repo.git
 
 
 Navigate to a project folder
