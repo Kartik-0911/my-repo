@@ -1,0 +1,104 @@
+# **Global Superstore Analysis**
+
+## **Project Overview**
+
+The **Global Superstore Analysis** project explores sales data to uncover insights about business performance, regional trends, and factors affecting profit and sales. The goal is to use **data analysis and visualization** techniques to identify patterns, support business decisions, and present actionable insights.
+
+---
+
+## **Dataset**
+
+* **Source:** Global Superstore dataset
+* **Format:** CSV (`.csv`)
+* **Key Columns:**
+
+  * `Order ID` – Unique identifier for each order
+  * `Order Date` – Date of the order
+  * `Ship Date` – Date the order was shipped
+  * `Region` – Sales region (e.g., East, West)
+  * `Category` – Product category (e.g., Furniture, Technology)
+  * `Sub-Category` – Product sub-category
+  * `Sales` – Sales amount
+  * `Profit` – Profit earned
+  * `Discount` – Discount applied
+
+---
+
+## **Objectives**
+
+1. Analyze **sales trends** across different regions and time periods.
+2. Explore **profitability** by product category and sub-category.
+3. Examine the impact of **discounts on profit**.
+4. Identify the **best and worst performing products**.
+5. Generate **visual insights** to support decision-making.
+
+---
+
+## **Repository Structure**
+
+```
+Global_Superstore/
+│── data/
+│   └── global_superstore.csv
+│
+│── notebooks/
+│   └── analysis.ipynb
+│
+│── results/
+│   └── sales_charts.png
+│
+└── README.md
+```
+
+* `data/` – Contains the dataset used for analysis.
+* `notebooks/` – Jupyter Notebook with step-by-step analysis, data cleaning, and visualization.
+* `results/` – Contains charts and visual summaries generated from the analysis.
+
+---
+
+## **Tools & Libraries**
+
+* Python 3.x
+* Pandas – Data manipulation and analysis
+* NumPy – Numerical computations
+* Matplotlib – Data visualization
+* Seaborn – Statistical visualization
+* Jupyter Notebook – Analysis environment
+
+---
+
+## **How to Run**
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/your-username/Global_Superstore.git
+```
+
+2. **Navigate to the project folder**:
+
+```bash
+cd Global_Superstore
+```
+
+3. **Open the notebook** in Jupyter:
+
+```bash
+jupyter notebook notebooks/analysis.ipynb
+```
+
+4. **Explore results** in the `results/` folder or within the notebook.
+
+---
+
+## **Key Insights (Example)**
+
+* Certain regions outperform others in sales and profitability.
+* Discounts have a direct impact on profit margins.
+* Top-performing product categories and sub-categories can be prioritized for growth.
+
+---
+
+## **License**
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
